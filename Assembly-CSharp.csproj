@@ -65,6 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\AutoRotation.cs" />
+    <Compile Include="Assets\Script\Blackjack\Blackjack.cs" />
+    <Compile Include="Assets\Script\Card\Card.cs" />
+    <Compile Include="Assets\Script\Card\Color.cs" />
+    <Compile Include="Assets\Script\Card\Value.cs" />
+    <Compile Include="Assets\Script\Deck\Deck.cs" />
+    <Compile Include="Assets\Script\Deck\Hand.cs" />
     <Compile Include="Assets\Script\InstantiatedPrefab.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

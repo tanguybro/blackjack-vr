@@ -1,94 +1,94 @@
 ﻿
 using Assets.Script.CardPackage;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Assets.Script.DeckPackage
 {
     public class Hand
     {
 
-		//private List<Card> cardList;
+        private List<Card> cardlist;
 
-		///**
-		// * Constructor
-		// */
-		//public Hand()
-		//{
-		//	cardList = new LinkedList<Card>();
-		//}
+        /**
+		 * constructor
+		 */
+        public Hand()
+        {
+            cardlist = new List<Card>();
+        }
 
-		///**
-		// * Display the hand and the different scores
-		// */
-		//public string toString()
-		//{
-		//	return cardList.toString() + " : " + count();
-		//}
+        /**
+		 * display the hand and the different scores
+		 */
+        public string Tostring()
+        {
+            return cardlist.ToString() + " : " + Count();
+        }
 
-		///**
-		// * Add a card to the hand
-		// * @param card
-		// */
-		//public void add(Card card)
-		//{
-		//	cardList.Add(card);
-		//}
+        /**
+		 * add a card to the hand
+		 * @param card
+		 */
+        public void Add(Card card)
+        {
+            cardlist.Add(card);
+        }
 
-		///**
-		// * Clear the list of cards
-		// */
-		//public void clear()
-		//{
-		//	cardList.Clear();
-		//}
+        /**
+		 * clear the list of cards
+		 */
+        public void Clear()
+        {
+            cardlist.Clear();
+        }
 
-		///**
-		// * @return the list of the hand's cards
-		// */
-		//public List<Card> getCardList()
-		//{
-		//	return cardList;
-		//}
+        /**
+		 * @return the list of the hand's cards
+		 */
+        public List<Card> GetCardList()
+        {
+            return cardlist;
+        }
 
-		///**
-		// * Calculate the differents scores
-		// * @return the list of the different scores 
-		// */
-		//public List<int> count()
-		//{
-		//	List<int> values = new LinkedList<int>();
-		//	values.add(0);
-		//	int sizeResult = values.size();
-		//	for (Card c : cardList)
-		//	{
-		//		for (int i = 0; i < sizeResult; i++)
-		//		{
-		//			int val = values.get(i);
-		//			values.set(i, val + c.getPoints());
-		//			if (c.getPoints() == 1)
-		//				values.add(val + 11); // Ajouter une possibilité si il y a un as
-		//		}
-		//		sizeResult = values.size();
-		//	}
-		//	return values;
-		//}
+        /**
+		 * calculate the differents scores
+		 * @return the list of the different scores 
+		 */
+        public List<int> Count()
+        {
+            List<int> values = new List<int> { 0 };
+            int sizeresult = values.Count();
+            foreach (Card c in cardlist)
+            {
+                for (int i = 0; i < sizeresult; i++)
+                {
+                    int val = values[i];
+                    values[i] = val + (int)c.GetValue();
+                    if ((int)c.GetValue() == 1)
+                        values.Add(val + 11); // ajouter une possibilité si il y a un as
+                }
+                sizeresult = values.Count();
+            }
+            return values;
+        }
 
-		///**
-		// * Find the best score under 21 or by default the best score
-		// * @return the best score
-		// */
-		//public int best()
-		//{
-		//	List<int> values = count();
-		//	int best = 0;
-		//	for (int v : values)
-		//	{
-		//		if (v > best && v <= 21)
-		//			best = v;
-		//	}
-		//	if (values.size() == 1 || best == 0)
-		//		return values.get(0);
-		//	return best;
-		//}
-	}
+        /**
+		 * find the best score under 21 or by default the best score
+		 * @return the best score
+		 */
+        public int Best()
+        {
+            List<int> values = Count();
+            int best = 0;
+            foreach (int v in values)
+            {
+                if (v > best && v <= 21)
+                    best = v;
+            }
+            if (values.Count() == 1 || best == 0)
+                return values[0];
+            return best;
+        }
+    }
 }

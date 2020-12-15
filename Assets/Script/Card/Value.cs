@@ -3,38 +3,38 @@ namespace Assets.Script.CardPackage
 {
     public enum Value
     {
-		ACE(1, "A"), TWO(2, "2"), THREE(3, "3"), FOUR(4, "4"), FIVE(5, "5"), SIX(6, "6"), SEVEN(7, "7"),
-		EIGHT(8, "8"), NINE(9, "9"), TEN(10, "10"), JACK(10, "J"), QUEEN(10, "Q"), KING(10, "K");
+		//ACE(1, "A"), TWO(2, "2"), THREE(3, "3"), FOUR(4, "4"), FIVE(5, "5"), SIX(6, "6"), SEVEN(7, "7"),
+		//EIGHT(8, "8"), NINE(9, "9"), TEN(10, "10"), JACK(10, "J"), QUEEN(10, "Q"), KING(10, "K");
 
-		private string symbol;
-		private int points;
+		//private string symbol;
+		//private int points;
 
-		/**
-		 * Constructor
-		 * @param points
-		 * @param symbol
-		 */
-		private Value(int points, string symbol)
-		{
-			this.points = points;
-			this.symbol = symbol;
-		}
+		///**
+		// * Constructor
+		// * @param points
+		// * @param symbol
+		// */
+		//private Value(int points, string symbol)
+		//{
+		//	this.points = points;
+		//	this.symbol = symbol;
+		//}
 
-		/**
-		 * @return the value's symbol
-		 */
-		public string getSymbol()
-		{
-			return symbol;
-		}
+		///**
+		// * @return the value's symbol
+		// */
+		//public string getSymbol()
+		//{
+		//	return symbol;
+		//}
 
-		/**
-		 * @return the value's points
-		 */
-		public int getPoints()
-		{
-			return points;
-		}
+		///**
+		// * @return the value's points
+		// */
+		//public int getPoints()
+		//{
+		//	return points;
+		//}
 
 	}
 }

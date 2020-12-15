@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 06dfc3bbe0cd5c749ba8ad366fe46415
+=======
+<<<<<<< HEAD:Assets/Playing Cards.meta
+guid: 19039f41d5e6bc142bfb8648156f12b7
+=======
+guid: b46f2aef571c513419e72a756d594652
+>>>>>>> 2071f48cf0d3aed1bfbaf26737c554a65633c8ba:Assets/Plugins.meta
+>>>>>>> 2071f48cf0d3aed1bfbaf26737c554a65633c8ba
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

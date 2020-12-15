@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+
+
+apply plugin: 'com.android.library'
+**APPLY_PLUGINS**
+
+>>>>>>> 2071f48cf0d3aed1bfbaf26737c554a65633c8ba
 buildscript {
     repositories {
         google()
@@ -20,8 +28,11 @@ allprojects {
       }
    }
 }
+<<<<<<< HEAD
 apply plugin: 'com.android.library'
 **APPLY_PLUGINS**
+=======
+>>>>>>> 2071f48cf0d3aed1bfbaf26737c554a65633c8ba
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])

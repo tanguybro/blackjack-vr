@@ -16,6 +16,10 @@
             this.color = color;
         }
 
+        public override string ToString()
+        {
+            return value.ToString() + "(" + color.ToString() + ")";
+        }
         /**
 		 * @return the color's name of the card
 		 */

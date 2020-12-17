@@ -21,9 +21,9 @@ namespace Assets.Script.DeckPackage
         /**
 		 * display the hand and the different scores
 		 */
-        public string Tostring()
+        public override string ToString()
         {
-            return cardlist.ToString() + " : " + Count();
+            return string.Join(", ", cardlist) + " : " + string.Join(", ", Count());
         }
 
         /**

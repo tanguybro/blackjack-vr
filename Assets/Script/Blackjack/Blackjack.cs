@@ -3,6 +3,7 @@ using Assets.Script.CardPackage;
 using Assets.Script.DeckPackage;
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace Assets.Script.BlackjackPackage
 {
@@ -30,8 +31,7 @@ namespace Assets.Script.BlackjackPackage
             }
             catch (Exception e)
             {
-                //System.err.println(e.getMessage());
-               // System.exit(-1);
+                Debug.LogError(e.Message);
             }
         }
 
@@ -52,8 +52,7 @@ namespace Assets.Script.BlackjackPackage
             }
             catch (Exception e)
             {
-                //System.err.println(e.getMessage());
-                // System.exit(-1);
+                Debug.LogError(e.Message);
             }
         }
 

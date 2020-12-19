@@ -1,2 +1,0 @@
-com/Esiea/Blackjack/BuildConfig.java
- com.Esiea.Blackjack.BuildConfig

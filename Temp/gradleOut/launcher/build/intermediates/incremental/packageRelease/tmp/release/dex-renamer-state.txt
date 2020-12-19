@@ -1,4 +1,0 @@
-#Sat Dec 19 14:01:46 CET 2020
-base.0=/Users/adilbahou/Unity/BlackJack/blackjack-vr/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

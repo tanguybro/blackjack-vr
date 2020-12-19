@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "398e4d271d96",
         "name": "com.Esiea.Blackjack",
-        "processId": 30688,
+        "processId": 22192,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -96,6 +96,150 @@
             "deviceId": "398e4d271d96",
             "name": "com.Esiea.Blackjack",
             "processId": 30688,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 25605,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 26502,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 27183,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 27941,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 30330,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 31424,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 4312,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 6767,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 7675,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 8401,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 9264,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 13341,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 14188,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 15150,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 15806,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 16377,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 16946,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 17544,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 18110,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 18742,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 19446,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 20187,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 21614,
+            "exited": false
+        },
+        {
+            "deviceId": "398e4d271d96",
+            "name": "com.Esiea.Blackjack",
+            "processId": 22192,
             "exited": false
         }
     ],

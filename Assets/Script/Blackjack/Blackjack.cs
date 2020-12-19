@@ -162,12 +162,12 @@ namespace Assets.Script.BlackjackPackage
         {
             playerHand.Add(deck.Draw());
             gameFinished = (GetPlayerBest() > 21);
-            }
+        }
 
-            /**
-		     * The bank draws a card until it gets a score higher than 16
-		     * @throws EmptyDeckException
-		     */
+        /**
+		* The bank draws a card until it gets a score higher than 16
+		* @throws EmptyDeckException
+		*/
         public void BankLastTurn()
         {
 			while(!gameFinished && GetBankBest() < 17) {

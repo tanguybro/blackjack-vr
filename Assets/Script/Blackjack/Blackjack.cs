@@ -210,5 +210,14 @@ namespace Assets.Script.BlackjackPackage
             return bet;
         }
 
+        public int NbPlayerCards()
+        {
+            return playerHand.GetCardList().Count;
+        }
+
+        public int NbBankCards()
+        {
+            return bankHand.GetCardList().Count;
+        }
     }
 }

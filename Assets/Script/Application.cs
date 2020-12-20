@@ -23,25 +23,30 @@ namespace Assets.Script
             blackjack = new Blackjack();
             Debug.Log("Player Hand : " + blackjack.GetPlayerHandString());
             Debug.Log("Bank Hand : " + blackjack.GetBankHandString());
-
-            UpdatePlayerCards(blackjack.GetPlayerCardList());
-            UpdatePlayerCards(blackjack.GetBankCardList());
         }
 
-        static void UpdatePlayerCards(List<Card> cards)
+        public static string GetImageNamePlayerCard1()
         {
-            string sourceImage1 = GetSourceImageName(cards[0]);
-            string sourceImage2 = GetSourceImageName(cards[1]);
-
-            // Doesn't work
-            GameObject playerCard1 = GameObject.Find("PlayerCard1");
-            Sprite image1 = Resources.Load<Sprite>(sourceImage1);
-            playerCard1.GetComponent<Image>().sprite = image1;
+            return GetSourceImageName(blackjack.GetPlayerCardList()[0]);
         }
 
-        static void UpdateBankCard(List<Card> cards)
+        public static string GetImageNamePlayerCard2()
         {
-            string sourceImage = GetSourceImageName(cards[0]);
+            return GetSourceImageName(blackjack.GetPlayerCardList()[1]);
+        }
+
+        public static string GetImageNameLastPlayerCard()
+        {
+            return GetSourceImageName(blackjack.GetPlayerCardList()[blackjack.GetPlayerCardList().Count - 1]);
+        }
+        public static string GetImageNameBankCard()
+        {
+            return GetSourceImageName(blackjack.GetBankCardList()[0]);
+        }
+
+        public static string GetImageNameLastBankCard()
+        {
+            return GetSourceImageName(blackjack.GetBankCardList()[blackjack.GetBankCardList().Count - 1]);
         }
 
         private static string GetSourceImageName(Card card)
@@ -69,7 +74,7 @@ namespace Assets.Script
             }
             else
             {
-                val = "0" + value;
+                val = "0" + (int)value;
             }
 
             return color + val;

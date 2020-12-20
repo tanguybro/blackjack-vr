@@ -64,6 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BankCard1.cs" />
+    <Compile Include="Assets\PlayerCard1.cs" />
+    <Compile Include="Assets\PlayerCard2.cs" />
     <Compile Include="Assets\Script\Application.cs" />
     <Compile Include="Assets\Script\AutoRotation.cs" />
     <Compile Include="Assets\Script\Blackjack\Blackjack.cs" />

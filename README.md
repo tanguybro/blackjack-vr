@@ -1,3 +1,3 @@
-# BlackJack VR
+# Blackjack VR
 
-BlackJack game in virtual reality made with Unity
+A Blackjack game in virtual reality made with Unity
